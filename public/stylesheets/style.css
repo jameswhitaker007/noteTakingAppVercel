@@ -14,3 +14,8 @@ p {
 #content {
   margin-top: 20px;
 }
+
+.input {
+  margin-right: 0.5rem;
+  min-width: 20rem;
+}

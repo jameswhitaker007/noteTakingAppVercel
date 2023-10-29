@@ -2,15 +2,15 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Welcome to the #{title}
   p Please select an action:
   form(id="note_form" action="" method="post")
-    select(id="select")
+    select(id="select" class="input")
       option(value="add" selected="selected") Add
       option(value="delete") Delete
       option(value="update") Update
-    input(type="text" id="note" name="note" placeholder="Enter note")
-    input(type="text" id="update" placeholder="Note to update" style="display: none;")
+    input(type="text" id="note" name="note" placeholder="Enter the note you want to add here" class="input")
+    input(type="text" id="update" placeholder="Enter the note you want to be updated here" style="display: none;" class="input")
     input(type="submit" id="submit")
-  p Your Notes
-  div(id="content")
+  p(style="font-weight: bold; font-size: 1.5rem") Your Notes
+  div(id="content" style="font-size: 1.25rem")

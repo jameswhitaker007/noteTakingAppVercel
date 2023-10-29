@@ -1,10 +1,31 @@
 $(document).ready(function () {
   buildContent();
   $("#select").on("change", function () {
+    /*
     if ($("#select").val() == "update") {
       $("#update").css("display", "inline");
+      $("#note").css("placeholder", "Enter your update here");
     } else {
       $("#update").css("display", "none");
+    }
+    */
+
+    let action = $("#select").val();
+    $("#update").css("display", "none");
+
+    switch (action) {
+      case "add":
+        $("#note").attr("placeholder", "Enter the note you want to add here");
+        break;
+      case "delete":
+        $("#note").attr("placeholder", "Enter the note you want to delete here");
+        break;
+      case "update":
+        $("#note").attr(
+          "placeholder",
+          "Enter your new update here"
+        );
+        $("#update").css("display", "inline");
     }
   });
 
