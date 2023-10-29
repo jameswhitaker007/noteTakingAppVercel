@@ -5,7 +5,5 @@
       "src": "bin/www.js",
       "use": "@vercel/node"
     }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  ]
 }
