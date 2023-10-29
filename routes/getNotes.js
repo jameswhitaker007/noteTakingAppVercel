@@ -6,7 +6,6 @@ const DB_PATH = "./database/db.json";
 async function getFile(filePath) {
   try {
     const data = await fs.readFile(DB_PATH);
-    //console.log(data);
     return data;
   } catch (err) {
     console.err(`Got an error trying to read the file: ${err.message}`);
