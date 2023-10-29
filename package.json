@@ -12,9 +12,7 @@
     "fs": "^0.0.1-security",
     "http-errors": "~1.6.3",
     "jade": "^1.9.2",
-    "morgan": "~1.9.1",
-    "uglify-js": "^3.17.4",
-    "vercel": "^32.3.0"
+    "morgan": "~1.9.1"
   },
   "description": "Note Taking Project",
   "main": "app.js",
