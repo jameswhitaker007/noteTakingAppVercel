@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Please select an action:
+  form(id="note_form" action="" method="post")
+    select(id="select")
+      option(value="add" selected="selected") Add
+      option(value="delete") Delete
+      option(value="update") Update
+    input(type="text" id="note" name="note" placeholder="Enter note")
+    input(type="text" id="update" placeholder="Note to update" style="display: none;")
+    input(type="submit" id="submit")
+  p Your Notes
+  div(id="content")
