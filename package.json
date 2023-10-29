@@ -12,7 +12,8 @@
     "fs": "^0.0.1-security",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "vercel": "^32.5.0"
   },
   "description": "Note Taking Project",
   "main": "app.js",
