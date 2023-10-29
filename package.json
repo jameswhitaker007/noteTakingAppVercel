@@ -8,12 +8,13 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
+    "jade": "^1.9.2",
     "morgan": "~1.9.1",
-    "vercel": "^32.5.0"
+    "uglify-js": "^3.17.4",
+    "vercel": "^32.3.0"
   },
   "description": "Note Taking Project",
   "main": "app.js",
