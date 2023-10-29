@@ -1,5 +1,5 @@
 {
-  "builds": [{ "src": "bin/www", "use": "@vercel/node" }],
+  "builds": [{ "src": "app.js", "use": "@vercel/node" }],
   "rewrites": [
     {
         "source": "/(.*)",
