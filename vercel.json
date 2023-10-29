@@ -6,10 +6,6 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "des": "app.js"
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 }
